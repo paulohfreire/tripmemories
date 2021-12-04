@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <LinkWrapper href="/about">
-        <InfoOutline size={36} aria-label="About"/>
+        <InfoOutline size={36} aria-label="Sobre a página"/>
       </LinkWrapper>
       <Map />
     </>
