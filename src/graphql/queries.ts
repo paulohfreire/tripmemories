@@ -20,7 +20,8 @@ query getPageBySlug($slug: String!){
     slug
     heading
     body{
-      html
+      html,
+      text
     }
   }
 }
